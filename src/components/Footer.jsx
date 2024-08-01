@@ -1,17 +1,5 @@
 import React from "react";
-
-const footerText = [
-  {
-    title: "youtube",
-    desc: "취미로 하는 유튜브",
-    link: "https://www.youtube.com/@Excel86",
-  },
-  {
-    title: "github",
-    desc: "코딩 라이프 깃헙",
-    link: "https://github.com/leeinwha",
-  },
-];
+import { footerText } from '../constants';
 
 const Footer = () => {
   return (
@@ -33,7 +21,7 @@ const Footer = () => {
             <ul>
               {footerText.map((footer, key) => (
                 <li key={key}>
-                  <a href={footer.link}>{footer.title}</a>
+                  <a href={footer.link} target="_blank" rel="noreferrer noopener">{footer.title}</a>
                   <em>{footer.desc}</em>
                 </li>
               ))}              
