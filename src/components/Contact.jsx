@@ -2,12 +2,12 @@ import React from "react";
 
 const contactText = [
   {
-      link: "https://open.kakao.com/o/gM7YLzwf",
-      title: "KAKAO : webstupids",
+      link: "https://github.com/leeinwha",
+      title: "github : iNa.",
   },
   {
-      link: "mailto:webstoryboy@naver.com",
-      title: "mail : webstoryboy@naver.com",
+      link: "mailto:aljard@naver.com",
+      title: "mail : aljard@naver.com",
   },
 ];
 
