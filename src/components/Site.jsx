@@ -11,16 +11,18 @@ const Site = () => {
             <article className={`site__item s${key+1}`} key={key}>
               <span className="num">{key+1}</span>
               <div className="text">
-                <div>{site.text[0]}</div>
-                <div>{site.text[1]}</div>
-                <div>{site.text[2]}</div>
+                <a href={site.view} target="_blank" rel="noreferrer noopener">
+                  <div>{site.text[0]}</div>
+                  <div>{site.text[1]}</div>
+                  <div>{site.text[2]}</div>
+                </a>
               </div>
               <h3 className="title">
                 {site.title}
               </h3>
               <div className="btn">
-                <a href={site.code}>code</a>
-                <a href={site.view}>view</a>
+                <a href={site.code} target="_blank" rel="noreferrer noopener">code</a>
+                <a href={site.view} target="_blank" rel="noreferrer noopener">view</a>
               </div>
               <div className="info">
                 <span>{site.info[0]}</span>
