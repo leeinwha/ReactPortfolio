@@ -96,6 +96,17 @@ export const siteText = [
   },
   {
     text: ["make", "with standard", "website"],
+    title: "GSAP Parallax Effect",
+    code: "https://github.com/leeinwha/GSAP",
+    view: "https://leeinwha.github.io/GSAP/gsap01/gsap01.html",
+    info: [
+      "#GSAP Parallax Effect, #스크롤트리거",
+      "",
+      "use stack : HTML5/CSS3, Gsap scroll trigger, Javascript",
+    ],
+  },
+  {
+    text: ["make", "with standard", "website"],
     title: "gsap 스크롤 트리거를 활용해 제작한 웹사이트",
     code: "https://github.com/leeinwha/VendrdiSociety",
     view: "https://leeinwha.github.io/VendrdiSociety",
