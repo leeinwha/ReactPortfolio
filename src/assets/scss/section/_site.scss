@@ -79,7 +79,8 @@
         @media (max-width: 800px){ 
             top: 240px;
         }
-      }&.s6 {
+      }
+      &.s6 {
         background-color: var(--subBg200);
         top: 280px;
 
@@ -87,6 +88,15 @@
             top: 260px;
         }
       }
+      &.s7 {
+        background-color: var(--subBg300);
+        top: 300px;
+
+        @media (max-width: 800px){ 
+            top: 280px;
+        }
+      }
+      
       .num {
         font-size: 5vw;
         line-height: 1;
