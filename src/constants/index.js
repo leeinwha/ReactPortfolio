@@ -62,25 +62,25 @@ export const siteText = [
     ],
   },
   {
-    text: ["make", "with react", "shopping mall project"],
-    title: "FireBase를 활용해 리액트로 제작한 쇼핑몰 사이트",
-    code: "https://github.com/leeinwha/Shoesy",
-    view: "https://shoesyshop.netlify.app/",
-    info: [
-      "#웹접근성, #반응형 웹, #시멘틱 태그",
-      "",
-      "use stack : React, Tailwind css, Firebase, cloudinary",
-    ],
-  },
-  {
     text: ["make", "with react", "todolist project"],
     title: "리액트로 제작한 Todo List App",
-    code: "https://github.com/webstoryboy/port2023-vue",
+    code: "https://github.com/leeinwha/todolist",
     view: "https://reactcreate-todo-list.netlify.app/",
     info: [
       "#웹접근성, #반응형 웹, #시멘틱 태그, #다크모드 구현",
       "",
       "use stack : React, CSS3",
+    ],
+  },
+  {
+    text: ["make", "with vue.js", "shopping app project"],
+    title: "뷰로 제작한 부동산 중개 앱",
+    code: "https://github.com/leeinwha/vuedongsan",
+    view: "https://vuedongsansite.netlify.app/",
+    info: [
+      "#웹접근성, #반응형 웹, #시멘틱 태그",
+      "",
+      "use stack : Vue.js, CSS3",
     ],
   },
   {
