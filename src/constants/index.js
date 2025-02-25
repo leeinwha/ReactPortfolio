@@ -84,6 +84,17 @@ export const siteText = [
     ],
   },
   {
+    text: ["make", "with vue.js", "sns app project"],
+    title: "뷰로 제작한 게시물 업로드가 가능한 SNS 앱",
+    code: "https://github.com/leeinwha/vuestagram",
+    view: "https://vuestargram.netlify.app/",
+    info: [
+      "#웹접근성, #반응형 웹, #시멘틱 태그",
+      "",
+      "use stack : Vue.js, CSS3",
+    ],
+  },
+  {
     text: ["make", "with javascript", "click mini game"],
     title: "자바스크립트로 제작한 두더지 미니게임",
     code: "https://github.com/leeinwha/carrot_minigame",
